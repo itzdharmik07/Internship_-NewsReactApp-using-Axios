@@ -34,7 +34,8 @@ function FetchNews() {
               news.map((val)=>{
                   return(
                     <div className="col-4">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card my-5" style={{width:"20rem",
+                                                height: "30rem"}}>
                       <img src={val.urlToImage} className="card-img-top" alt="..." />
                       <div className="card-body">
                         <h5 className="card-title">{val.title}</h5>
